@@ -1,0 +1,27 @@
+footer {
+    // border-top: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 -2px 2px rgba(161, 161, 161, 0.527);
+    background-color: white;
+}
+.little-p {
+  font-size: 12px;
+  line-height: 14px;
+  color: #5e5e5e;
+}
+.btn-back {
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+  top: -3.2px;
+  width: 70px;
+  height: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  left: calc(min(100vw, 500px) / 2 - 35px);
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 2px rgba(161, 161, 161, 0.527);
+}
+.active {
+  border: 1px solid blue;
+}
